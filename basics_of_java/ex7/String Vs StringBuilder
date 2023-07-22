@@ -1,0 +1,16 @@
+String and StringBuilder both holds the series of characters.
+
+The main difference between them is Strings are immutable and StingBuilder are mutable'
+That is, once initialized we can not modify a string object, if we do so then a new 
+String object will be created in the String pool and the reference will be changed
+to the new object.
+
+But in case of String Builder, as string builders mutable, we can modify the string in the
+string builder in the same object. Hence it is more efficient and an mutable alternative
+of the String. 
+
+StringBuilder class is preferred over String when we have to perform modification of 
+the String multiple times. Then it makes the code more efficient.
+
+The StringBuilder are not stored in String Pool, they are stored in the heap memory
+of the objects.  

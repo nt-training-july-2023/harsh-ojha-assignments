@@ -17,12 +17,13 @@ public class RotateArray {
 		
 	}
 	
-	 static void reverse(int[] arr,int start,int end){
-		while(start<end){
-			int temp = arr[start];
-			arr[start]=arr[end];
-			arr[end]=temp;
-			start++;end--;
+	 static void reverse(int[] arr,int first,int last){
+		while(first<last){
+			int temp = arr[first];
+			arr[first]=arr[last];
+			arr[last]=temp;
+			first++;
+			last--;
 		}
 	}
 }
