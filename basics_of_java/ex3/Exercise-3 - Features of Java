@@ -1,0 +1,42 @@
+Following are the features of Java--
+
+1.Simple:-
+	Java syntax is easy to learn and is based on C++, hence it is easy to code.
+	Java does not have the pointer concept as it is complicated.
+	
+2.Secure:-
+	Java does not have the pointer concept , all the variables and memory of the
+	objects is managed by Java. Hence it is really difficult for anyone to exploit the 
+	security of Java.
+	Java also follows concept of OOPS(Encapsulation and Abstraction) which makes the 
+	code more secure.
+
+3.Portable:-
+	Java code is portable. It is platform independent i.e,
+	write once run anywhere. We can write the java code in the windows 
+	and run it in the linux , all we need is the JVM. Java virtual machine.
+	
+4.Strong:-
+	Java has many features which make Java a strong programming language.
+	like- Garbage collection, no pointers.
+	
+5.Architecture- neutral:-
+	This defines that features of Java independent of their implementation.
+	i.e, we have to predefine the data-type of the variable, so it also defines what
+	are the methods and implementations the variable can follow and access.
+	
+6.High Performance:-
+	Java is a fast language. It is faster than interpreted languages like python ,
+	but slower than compiled languages like c++ and c. Java is combination of
+	compiled and interpreted language as the java code is compiled first and then the
+	byte-code is interpreted line by line and executed by converting it into 
+	machine level code.
+	
+7.Distributed:-
+	Java is distributed, as it is used in many technologies. and also can be accessed from
+	the cloud or internet directly. 
+	
+8.Dynamic:-
+	Java is a dynamic language, as the classes are loaded dynamically on demand and
+	the Garbage collector also works dynamically when the code is run,
+	i.e., runtime.
