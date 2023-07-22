@@ -1,3 +1,3 @@
 # harsh-ojha-assignments
 
-Assignmets
+Assignments
