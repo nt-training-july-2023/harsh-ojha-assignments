@@ -8,12 +8,10 @@ import java.io.IOException;
 
 public class ThreadsReadingFiles extends Thread {
 	
-	private File file;
 	private FileReader fileReader;
 	private BufferedReader bufferedReader;
 	
 	public ThreadsReadingFiles(File file) throws FileNotFoundException {
-	this.file = file;
 	fileReader = new FileReader(file);
 	bufferedReader = new BufferedReader(fileReader);
 	}
